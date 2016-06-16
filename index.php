@@ -1,24 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title></title>
-  <meta charset="utf-8" />
-  <!--подключение bootstrap-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/style.css" media="screen" title="no title" charset="utf-8">
-</head>
-<body>
-  <!--подключение header(шапки)-->
 <?php
+//    подключение header(шапки)
   require_once("header.php");
+  require_once("articles.php");
 ?>
-<div id="wrapper">
+<!--основная страница-->
+<div id="main">
 
+  <a href="article.php">PHP</a> (англ. PHP: Hypertext Preprocessor — «PHP: препроцессор гипертекста»; первоначально Personal Home Page Tools — «Инструменты для создания персональных веб-страниц») — скриптовый язык общего назначения, интенсивно применяемый для разработки веб-приложений. В настоящее время поддерживается подавляющим большинством хостинг-провайдеров и является одним из лидеров среди языков, применяющихся для создания динамических веб-сайтов.
+
+Язык и его интерпретатор разрабатываются группой энтузиастов в рамках проекта с открытым кодом. Проект распространяется под собственной лицензией, несовместимой с GNU GPL.
 </div>
+
 <!--подключение footer(подвала)-->
 <?php
   require_once("footer.php");
+
 ?>
-<script type="text/javascript" src="script.js"></script>
-</body>
-</html>
