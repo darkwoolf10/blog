@@ -1,5 +1,5 @@
 <?php
-//    подключение header(шапки)
+//     подключение header(шапки)
   require_once("header.php");
 ?>
 <?php
